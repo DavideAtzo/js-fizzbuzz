@@ -5,8 +5,9 @@
 }
 
 body{
-    background-color: yellowgreen;
-
+   background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -44,4 +45,10 @@ body{
 
 .FrizzBuzz{
     background-color: silver;
+}
+
+h1{
+    color: greenyellow;
+    text-align: center;
+    margin-top: 1.25rem;
 }
