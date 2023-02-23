@@ -13,7 +13,7 @@ for (let i= 1; i <= 100; i++){
         stringa ='FizzBuzz'
         console.log('FizzBuzz');
         cards.append(stringa);
-        cards.classList.add('FizzBuzz');
+        cards.classList.add('FrizzBuzz');
     }
     // ciclo ogni 5 va inserire la parola Buzz
     else if(i % 5 === 0){
@@ -24,7 +24,7 @@ for (let i= 1; i <= 100; i++){
     }
     // ciclo ogni 3 va inserire la parola Fizz
     else if(i % 3 === 0){
-        console.log('Fizz');
+        console.log('Frizz');
         stringa ='Frizz';
         cards.append(stringa);
         cards.classList.add('Frizz');

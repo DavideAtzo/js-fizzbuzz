@@ -15,3 +15,7 @@ Step-2: modifico il tipo di inserimento di frizz e buzz come valore di una varia
 Step-3: dichiara nuova variabile che ha valenza come aggiunta di un elemento (div), successivamente la inserirò dentro il container;
 Step-4: inserisco il valore di stringa dentro l'elemento creato;
 Step-5: inserisco il valore di quella stringa come classe per andarla poi a lavorare successivamente;
+
+
+BONUS 2:
+Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.

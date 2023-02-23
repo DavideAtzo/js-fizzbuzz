@@ -11,21 +11,37 @@ body{
 
 .container{
     max-width: 800px;
-    margin: 40px auto;
+    margin: 2.5rem auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: .625rem;
 }
 
 .container div{
-    width: calc(100% / 7);
+    width: calc(100% / 10);
     padding: 10px;
     text-align: center;
     border: 1px solid;
+    border-radius: .3125rem;
 }
 
 .number{
+    background-color: orange;
     
+}
+
+.Frizz{
+    background-color: lightblue;
+}
+
+
+.Buzz{
+    background-color: salmon;
+}
+
+
+.FrizzBuzz{
+    background-color: silver;
 }
