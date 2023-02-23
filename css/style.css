@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container div{
+    width: calc(100% / 7);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.number{
+    
+}
